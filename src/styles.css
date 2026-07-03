@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    height: 10vh;
+    font-size: 4vh;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem 1rem 1rem 1rem;
+    gap: 5rem;
+}
+.user{
+    border: 3px solid #000;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: center;
+}
+.user>img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+#search{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem 0rem 0rem;
+}
+#search>input{
+    height: 4vh;
+    width: 30vw;
+    padding-left: 1.5vh;
+    font-size: 1.5rem;
+}
+#search>button{
+    height: 4vh;
+    width: 12vw;
+    margin-left: 1.5vw;
+    font-size: 1.2rem;
+}
